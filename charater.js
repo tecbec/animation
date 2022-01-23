@@ -4,7 +4,7 @@ class Running{
         this.animator = new Animator(ASSET_MANAGER.getAsset("./run.png"), 0, 0 , 126, 160, 8, 0.1, false, true);
         this.x = 0;
         this.y = 0
-        this.speed = 30;
+        this.speed = 60;
     };
 
     update(){
